@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+
+	<bean id="ofc" class="com.abc.sp.OfficePojo">
+		<property name="floor" value="1">
+		</property>
+		<property name="floorname" value="first">
+		</property>
+		<property name="roomno" value="5">
+		</property>
+		<property name="noOfRestroom" value="2">
+		</property>
+	</bean>
+</beans>
